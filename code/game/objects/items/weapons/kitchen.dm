@@ -446,6 +446,8 @@
 		PREPOSITIONAL = "старом ноже"
 	)
 	icon = 'icons/obj/items.dmi'
+	righthand_file = 'icons/mob/inhands/melee_righthand.dmi'
+	lefthand_file = 'icons/mob/inhands/melee_lefthand.dmi'
 	icon_state = "ghostface_knife"
 	force = 34
 	armour_penetration = 70
