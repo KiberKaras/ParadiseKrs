@@ -445,6 +445,7 @@
 		INSTRUMENTAL = "старым ножом",
 		PREPOSITIONAL = "старом ноже"
 	)
+	icon = 'icons/obj/items.dmi'
 	icon_state = "ghostface_knife"
 	force = 34
 	armour_penetration = 70
