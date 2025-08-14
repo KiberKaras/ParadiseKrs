@@ -473,7 +473,7 @@
 	)
 
 /obj/item/kitchen/knife/ghostface_knife/devil
-	name = "Old knife"
+	name = "old knife"
 	desc = "Странный нож с, тем не менее, крайне острым лезвием. Судя по характерным потёртостям и засохшей крови, он явно не валялся без дела."
 	ru_names = list(
 		NOMINATIVE = "старый ржавый нож",
