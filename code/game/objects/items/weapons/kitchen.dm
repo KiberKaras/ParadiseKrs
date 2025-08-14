@@ -435,7 +435,7 @@
 	materials = list(MAT_PLASMA = MINERAL_MATERIAL_AMOUNT * 0.5, MAT_GLASS = MINERAL_MATERIAL_AMOUNT)
 
 /obj/item/kitchen/knife/ghostface_knife
-	name = "Knife"
+	name = "knife"
 	desc = "Очень острый нож. Судя по потёртостям и засохшей крови, он совсем не валялся без дела."
 	ru_names = list(
 		NOMINATIVE = "старый нож",
