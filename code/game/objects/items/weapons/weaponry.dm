@@ -586,5 +586,3 @@
 		INSTRUMENTAL = "старым ржавым ножом",
 		PREPOSITIONAL = "старом ржавом ноже"
 	)
-		if(prob(30))
-			human_victim.Knockdown(3 SECONDS)
