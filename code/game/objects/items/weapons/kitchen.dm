@@ -437,14 +437,6 @@
 /obj/item/kitchen/knife/ghostface_knife
 	name = "knife"
 	desc = "Очень острый нож. Судя по потёртостям и засохшей крови, он совсем не валялся без дела."
-	ru_names = list(
-		NOMINATIVE = "старый нож",
-		GENITIVE = "старого ножа",
-		DATIVE = "старому ножу",
-		ACCUSATIVE = "старый нож",
-		INSTRUMENTAL = "старым ножом",
-		PREPOSITIONAL = "старом ноже"
-	)
 	icon = 'icons/obj/items.dmi'
 	righthand_file = 'icons/mob/inhands/melee_righthand.dmi'
 	lefthand_file = 'icons/mob/inhands/melee_lefthand.dmi'
@@ -462,6 +454,16 @@
 	attack_verb = list("полоснул", "уколол", "поранил", "порезал", "рубанул")
 	sharp = TRUE
 
+/obj/item/kitchen/knife/ghostface_knife/get_ru_names()
+	return list(
+		NOMINATIVE = "старый нож",
+		GENITIVE = "старого ножа",
+		DATIVE = "старому ножу",
+		ACCUSATIVE = "старый нож",
+		INSTRUMENTAL = "старым ножом",
+		PREPOSITIONAL = "старом ноже"
+	)
+
 /obj/item/kitchen/knife/ghostface_knife/ComponentInitialize()
 	. = ..()
 	AddComponent( \
@@ -475,7 +477,10 @@
 /obj/item/kitchen/knife/ghostface_knife/devil
 	name = "old knife"
 	desc = "Странный нож с, тем не менее, крайне острым лезвием. Судя по характерным потёртостям и засохшей крови, он явно не валялся без дела."
-	ru_names = list(
+	icon_state = "devil_ghostface_knife"
+
+/obj/item/kitchen/knife/ghostface_knife/devil/get_ru_names()
+	return list(
 		NOMINATIVE = "старый ржавый нож",
 		GENITIVE = "старого ржавого ножа",
 		DATIVE = "старому ржавому ножу",
@@ -483,7 +488,6 @@
 		INSTRUMENTAL = "старым ржавым ножом",
 		PREPOSITIONAL = "старом ржавом ноже"
 	)
-	icon_state = "devil_ghostface_knife"
 
 /*
  * Rolling Pins
