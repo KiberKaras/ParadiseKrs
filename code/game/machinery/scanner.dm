@@ -7,7 +7,11 @@
 	idle_power_usage = 0
 	active_power_usage = 0
 	anchored = TRUE
-  var in_work = FALSE
+ 	var/in_work = FALSE
+	var/list/blacklisted_obj = list(
+	obj/item,
+	
+)
 
 /obj/machinery/location_scanner/get_ru_names()
 	return alist(
